@@ -25,7 +25,8 @@ class EmailInput extends StatelessWidget {
           borderRadius: BorderRadius.circular(10)),
       child: TextFormField(
         decoration: InputDecoration(
-            contentPadding: const EdgeInsets.symmetric(vertical: 10),
+          
+           contentPadding: const EdgeInsets.symmetric(vertical: 2),
             border: InputBorder.none,
             hintText: hint,
             prefixIcon: Padding(

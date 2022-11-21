@@ -7,7 +7,7 @@ import 'package:canteen/utils/colors.dart';
 import 'package:canteen/widgets/email-input.dart';
 import 'package:flutter/material.dart';
 import '../widgets/widgets.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+// import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
@@ -59,25 +59,33 @@ class LoginPage extends StatelessWidget {
                           ),
                           Form(
                             child: Container(
-                              child: Column(
-                                children: [
-                                  EmailInput(
-                                    icon: FontAwesomeIcons.solidEnvelope,
-                                    hint: 'Email',
-                                    inputType: TextInputType.emailAddress,
-                                    inputAction: TextInputAction.next,
-                                  ),
-                                  SizedBox(
-                                    height: 10,
-                                  ),
-                                  PasswordInput(
-                                    icon: FontAwesomeIcons.lock,
-                                    hint: 'Password',
-                                    inputAction: TextInputAction.done,
-                                  ),
-                                ],
-                              ),
+                              
+                                child: Column(
+                                  children: [
+                                    EmailInput(
+                                      icon:Icons.email,
+                                      // icon: FontAwesomeIcons.solidEnvelope,
+                                      hint: 'Email',
+                                      inputType: TextInputType.emailAddress,
+                                      inputAction: TextInputAction.next,
+                                    ),
+                                    SizedBox(
+                                      height: 20,
+                                    ),
+                                    PasswordInput(
+                                      icon: Icons.lock,
+                                      // icon: FontAwesomeIcons.lock,
+                                      hint: 'Password',
+                                      inputAction: TextInputAction.done,
+                                    ),
+                                  ],
+                                ),
+                           
                             ),
+                          ),
+
+                          SizedBox(
+                            height: 7,
                           ),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.center,
@@ -92,15 +100,58 @@ class LoginPage extends StatelessWidget {
                                   ),
                                 ),
                               ),
+
+                               SizedBox(width: 50),
+                               Text(
+                                "Remember Me"
+                                ,
+                                style: TextStyle(
+                                    color: AppColors.textColor,
+                                  fontSize: 12,
+                                ),
+                               ),
                             ],
+
+
+                           
                           ),
                           SizedBox(
-                            height: 10,
+                            height: 30,
                           ),
+
+
+                         Container(
+                  child: ElevatedButton(
+                     style: ElevatedButton.styleFrom(
+                      backgroundColor: AppColors.textColor,
+                      minimumSize: const Size.fromHeight(40),
+                     ),
+                      onPressed: () async {
+                        // User? user= await loginUsingEmailPassword(email: _emailController.text, password: _passwordController.text, context: context);
+                        // print(user);
+                        // if(user !=null)
+                        // {
+                        //   Navigator.of(context).pushReplacement(MaterialPageRoute(builder : (context)=> const ProfileScreen()));
+                        // }
+                      },
+
+
+
+                      child: const Text(
+                        "Login",
+                        style: TextStyle(
+                          fontSize: 15,
+                          color: Colors.white,
+                        ),
+                      )),
+                ),
+
+
                         ],
                       ),
                     ),
                   )
+
                 ],
               ),
             ),
