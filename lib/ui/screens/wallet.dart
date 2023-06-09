@@ -76,8 +76,11 @@ class WalletPage extends StatelessWidget {
                             width: devicewidth * .05,
                           ),
                           Image(
-                            image: NetworkImage(
-                                'https://s3-alpha-sig.figma.com/img/a816/a302/1441e7083f5d4e2e8c26b0260142c554?Expires=1671408000&Signature=Va-Pu9~gii4kSfj-~Gg-3ZqXdnBYenKE~EkkcdKI-gefgDSFc4W0Uv2sLoYpE5N5JUbwxm1rFB--Z4hoEVwcqaLx3Az0C8O4jF0L1mmTcWg3H~sw9Elj4b3h-FkjzjwUzcTtCQuShdGdn72anQva~3Tq7KFhlyDSjqLI6lONDzKbDDzIKZ7B3aVRpu8CF~mhA8o7caKSTkwOsC7rwQ-bpWx-kS0stHfwedEjmlHMy4YrFYOhhTus09KcwQ0KpuaA2GplXWB0wngkFaCWKgj1KujAoCAFVSEGIDs7QTmZJmF7wm2-aH0VuFW4upbcP7y54WnS~ppxtmASZ7HcDV9lsw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA'),
+                            // image: NetworkImage(
+                            //   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxPEmVtZmE3vY8e-v6RYmHnKrthA_zEGB3DQ&usqp=CAU'
+                            //     // 'https://s3-alpha-sig.figma.com/img/a816/a302/1441e7083f5d4e2e8c26b0260142c554?Expires=1671408000&Signature=Va-Pu9~gii4kSfj-~Gg-3ZqXdnBYenKE~EkkcdKI-gefgDSFc4W0Uv2sLoYpE5N5JUbwxm1rFB--Z4hoEVwcqaLx3Az0C8O4jF0L1mmTcWg3H~sw9Elj4b3h-FkjzjwUzcTtCQuShdGdn72anQva~3Tq7KFhlyDSjqLI6lONDzKbDDzIKZ7B3aVRpu8CF~mhA8o7caKSTkwOsC7rwQ-bpWx-kS0stHfwedEjmlHMy4YrFYOhhTus09KcwQ0KpuaA2GplXWB0wngkFaCWKgj1KujAoCAFVSEGIDs7QTmZJmF7wm2-aH0VuFW4upbcP7y54WnS~ppxtmASZ7HcDV9lsw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA'
+                            //     ),
+                            image: AssetImage("assets/images/coins.png"),
                             // fit: BoxFit.fill,
                             height: deviceheight * .25,
                             width: devicewidth * .25,
