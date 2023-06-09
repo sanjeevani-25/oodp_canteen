@@ -1,10 +1,10 @@
 // ignore: unnecessary_import
-import 'package:canteen/utils/colors.dart';
+import 'package:final_app/utils/colors.dart';
 // ignore: unnecessary_import
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 // ignore: duplicate_import
-import 'package:canteen/utils/colors.dart';
+import 'package:final_app/utils/colors.dart';
 
 const TextStyle kheading = TextStyle(
 

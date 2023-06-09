@@ -1,5 +1,5 @@
-import 'package:canteen/palette.dart';
-import 'package:canteen/utils/colors.dart';
+import 'package:final_app/palette.dart';
+import 'package:final_app/utils/colors.dart';
 import 'package:flutter/material.dart';
 
 class PasswordInput extends StatelessWidget {
