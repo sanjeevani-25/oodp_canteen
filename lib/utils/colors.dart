@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_declarations
 
-import 'dart:ui';
+// import 'dart:ui';
+import 'package:flutter/material.dart';
 
 class AppColors{
   static final Color textColor= const Color.fromARGB(255, 109, 33, 19);

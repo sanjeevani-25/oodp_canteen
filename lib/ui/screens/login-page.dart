@@ -1,12 +1,12 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors, sized_box_for_whitespace, avoid_unnecessary_containers, depend_on_referenced_packages, import_of_legacy_library_into_null_safe
 
-import 'dart:ui';
+// import 'dart:ui';
 
 import 'package:canteen/palette.dart';
 import 'package:canteen/utils/colors.dart';
-import 'package:canteen/widgets/email-input.dart';
+import 'package:canteen/ui/screens/widgets/email-input.dart';
 import 'package:flutter/material.dart';
-import '../widgets/widgets.dart';
+import 'widgets/widgets.dart';
 // import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class LoginPage extends StatelessWidget {
@@ -131,7 +131,7 @@ class LoginPage extends StatelessWidget {
                         // print(user);
                         // if(user !=null)
                         // {
-                        //   Navigator.of(context).pushReplacement(MaterialPageRoute(builder : (context)=> const ProfileScreen()));
+                          // Navigator.of(context).pushReplacement(MaterialPageRoute(builder : (context)=> const ProfileScreen()));
                         // }
                       },
 
